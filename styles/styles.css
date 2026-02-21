@@ -1,27 +1,136 @@
-/* {
-    border: 1px solid red
-}*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    margin: 0;
-    font-size: 24px;
-    background-color: blanchedalmond;
+  font-family: "Nanum Brush Script", cursive, Arial;
+  background: #333;
+  color: white;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: #dfdfdf;
+  border-bottom: #111 solid 2px;
+}
+
 img {
-    width: 50%;
     display: block;
-    margin: 40px;
-    padding: 40px;
+    width: 100%;
 }
-h1 {
-    font-size: 2em;
-    margin: 10px;
-    text-decoration: underline;
-    background-color: azure;
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 28px;
 }
-#content {
-    padding: 40px;
-    margin: 40px auto;
-    max-width: 900px;
-    background-color: white;
-    text-align: center;
+
+.logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+}
+
+nav a {
+  margin-right: 22px;
+  text-decoration: none;
+  color: #777;
+  font-size: 25px;
+}
+
+nav a:hover {
+  color: #111;
+}
+
+.nav-right {
+  display: flex;
+  gap: 14px;
+}
+
+button {
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #111;
+}
+.btn-outline:hover{
+  background: #111;
+  color: white;
+  border: 1px solid #111;
+}
+
+.btn-solid {
+  background: #111;
+  color: white;
+  border: 1px solid #111;
+}
+.btn-solid:hover{
+  background: transparent;
+  border: 1px solid #111;
+  color: #111;
+}
+
+.hero {
+  display: grid;
+  padding: 60px 40px 120px;
+  min-height: 420px;
+  grid-template-columns: repeat(8, 1fr);
+  font-family: "Playwrite NZ Basic", cursive, Arial;
+}
+
+img{
+    border-radius: 8px;
+}
+
+.image-card {
+  background: #dfdfdf;
+  padding: 30px;
+  border-radius: 10px;
+  grid-area: 1/1/4/3;
+}
+
+.text-card {
+  grid-area: 2/2/3/4;
+  background: rgba(80, 80, 80, 0.85);
+  color: #dfdfdf;
+  padding: 26px;
+  border-radius: 6px;
+  backdrop-filter: blur(2px);
+  
+}
+
+.text-card p {
+  grid-area: 2/2/2/2;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+#main-text-box{
+    grid-area: 4/1/6/6;
+    margin-top: 20px;
+    background: rgba(80, 80, 80, 0.85);
+  color: #dfdfdf;
+  padding: 26px;
+  border-radius: 6px;
+  backdrop-filter: blur(2px);
+}
+
+.footer {
+  background: #111;
+  color: #dfdfdf;
+  padding: 40px;
+  margin-top: 80px;
+  font-size: 12px;
+  font-family: "Playwrite NZ Basic", cursive, Arial;
 }
