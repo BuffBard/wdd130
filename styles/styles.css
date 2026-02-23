@@ -39,7 +39,7 @@ img {
 nav a {
   margin-right: 22px;
   text-decoration: none;
-  color: #777;
+  color: #0f4b4b;
   font-size: 25px;
 }
 
@@ -100,7 +100,7 @@ img{
 }
 
 .text-card {
-  grid-area: 2/2/3/4;
+  grid-area: 2/2/3/5;
   background: rgba(80, 80, 80, 0.85);
   color: #dfdfdf;
   padding: 26px;
