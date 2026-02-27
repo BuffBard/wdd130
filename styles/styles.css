@@ -117,9 +117,9 @@ img{
 }
 
 #main-text-box{
-    grid-area: 4/1/6/6;
-    margin-top: 20px;
-    background: rgba(80, 80, 80, 0.85);
+  grid-area: 4/1/6/6;
+  margin-top: 20px;
+  background: rgba(80, 80, 80, 0.85);
   color: #dfdfdf;
   padding: 26px;
   border-radius: 6px;
