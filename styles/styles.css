@@ -173,3 +173,23 @@ img{
 }
 
 .dropdown:hover .dropdown-content {display: block;}
+
+#ice_link{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin: 40px 0 4px -20px;
+  font-size: 1.5em;
+  background-color: #0f4b4b;
+  padding: 4px;
+  border-radius: 10px;
+}
+#ice_main{
+  display: block;
+  font-family: "Playwrite NZ Basic", cursive, Arial;
+  margin: 40px 40px 0 40px;
+}
+#ice_link:hover{
+  color: #dfdfdf;
+  text-shadow: 2px 2px #111;
+}
