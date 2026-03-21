@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: #232323;
+}
+.navbar{
+    background-color: rgb(63, 62, 65);
+    height: 150px;
+}
+img {
+    display: block;
+    width: 100%;
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 300px;
+    position: relative;
+    top: -20px;
+}
+.nav-bottom{
+    display: block;
+    text-align: center;
+}
+.nav-bottom a{
+    font-size: 30px;
+    color: #C238EB;
+    margin-left: 80px;
+    margin-right: 80px;
+    position: relative;
+    right: -50px;
+    top: -20px;
+}
+.hero{
+    margin-top: 120px;
+}
+.hero h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+.hero input{
+    display: block;
+    justify-self: center;
+    width: 550px;
+    height: 70px;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.hero input::first-letter{
+    font-size: 40px;
+}
+.checked {
+  color: orange;
+}
+
+
+
+
+/* temp sizes*/
+.hero img{
+    width: 300px;
+}
+footer img{
+    width: 200px;
+}
