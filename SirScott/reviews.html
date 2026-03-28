@@ -6,6 +6,7 @@
     <title>RateRight - Your Favorite Movie Reviewing Website</title>
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="navbar">
@@ -23,26 +24,26 @@
     <main class="hero">
         <h1>Rate a movie</h1>
         <input type="text" placeholder="🔎 Search..">
-
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span>
-        <h2>Write Your Review</h2>
-
+        <div id="big_stars">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        </div>
+        <h2 id="reviews-txt">Write Your Review</h2>
+        <input id="big_text_box" type="text" placeholder="Begin Your Review..">
+        <p id="reviews-main"></p>
 
     </main>
-    <footer>
-        <img src="images\RateRightlogoTransparent.png" alt="Rate Right Page Logo"/>
-        <div>
-        <img id="socials-img" src="images\facebook.png" alt="Facebook Logo"/>
-        <p>@RateRight</p>
-        <img id="socials-img" src="images\twitter.png" alt="Twitter Logo"/>
-        <p>@RateRight</p>
-        <img id="socials-img" src="images\instagram.png" alt="Instagram Logo"/>
-        <p>@RateRight</p>
-        </div>
+    <footer class="bottom-nav">
+        <img id="bottom-logo" src="images\RateRightTiny.png" alt="Rate Right Page Logo"/>
+        <img id="facebook-img" src="images\facebook.png" alt="Facebook Logo"/>
+        <p id="facebook-txt">@RateRight</p>
+        <img id="twitter-img" src="images\twitter.png" alt="Twitter Logo"/>
+        <p id="twitter-txt">@RateRight</p>
+        <img id="insta-img" src="images\instagram.png" alt="Instagram Logo"/>
+        <p id="insta-txt">@RateRight</p>
     </footer>
 </body>
 </html>

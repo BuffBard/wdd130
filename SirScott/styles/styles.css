@@ -6,9 +6,15 @@
 body{
     background-color: #232323;
 }
+h1, h2, h3{
+    font-family: "Montserrat", sans-serif;
+}
+a{
+    font-family: Helvetica, Arial;
+}
 .navbar{
     background-color: rgb(63, 62, 65);
-    height: 150px;
+    height: 110px;
 }
 img {
     display: block;
@@ -19,7 +25,7 @@ img {
     margin: auto;
     width: 300px;
     position: relative;
-    top: -20px;
+    top: -40px;
 }
 .nav-bottom{
     display: block;
@@ -32,7 +38,7 @@ img {
     margin-right: 80px;
     position: relative;
     right: -50px;
-    top: -20px;
+    top: -65px;
 }
 .hero{
     margin-top: 120px;
@@ -46,8 +52,8 @@ img {
 .hero input{
     display: block;
     justify-self: center;
-    width: 550px;
-    height: 70px;
+    width: 45%;
+    height: 87px;
     border-radius: 15px;
     margin-top: 20px;
     padding-left: 20px;
@@ -56,16 +62,158 @@ img {
     font-size: 40px;
 }
 .checked {
-  color: orange;
+  color: white;
+}
+
+#big_stars{
+    justify-self: center;
+    margin-top: 50px;
+    font-size: 3em;
+}
+#reviews-txt{
+    margin-left: 16%;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+#big_text_box{
+    display: block;
+    width: 70%;
+    height: 250px;
+    border-radius: 15px;
+    margin-top: 0px;
+}
+#top_rated-background{
+    background-color: #1C0C4F;
+}
+#top_rated-main{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: repeat(5fr);
+    gap: 35px;
+    column-gap: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 130px;
+}
+#top_rated-main img{
+    width: 150px;
+}
+#midnight_signal-img{
+    grid-area: 1/1/1/1;
+}
+#shadow_run-img{
+    grid-area: 2/1/2/1;
+}
+#echos_of_tomorrow-img{
+    grid-area: 3/1/3/1;
+}
+#the_last_horizon-img{
+    grid-area: 4/1/4/1;
+}
+#card-txt{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto(1fr 1fr 1fr 5fr);
+    padding: 12px;
+    border: 2px solid #F3EFF5;
+    border-radius: 30px;
+    margin: auto;
+    column-gap: 40px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+#card-title{
+    grid-area: 1/1/1/1;
+    color: #00C8F8;
+    font-size: 24px;
+}
+#card-title_description{
+    grid-area: 2/1/2/1;
+    color: #00C8F8;
+    font-size: 24px;
+}
+#top_rated-stars{
+    color: white;
+    grid-area: 3/1/3/1;
+}
+#top_rated-stars .checked{
+    color: orange;
+}
+#card-description{
+    grid-area: 4/1/4/1;
+    color: #C238EB;
+    font-size: 20px;
+}
+#card-top_review{
+    grid-area: 1/2/1/2;
+    color: #00C8F8;
+    font-size: 24px;
+}
+#card-review{
+    grid-area: 2/2/5/2;
+    color: #C238EB;
+    font-size: 20px;
 }
 
 
+
+
+
+
+#add_header{
+    position: absolute;
+    font-size: 52px;
+    left: 20px;
+    top: 150px;
+    color: #C238EB;
+}
+#index-main{
+    padding-top: 200px;
+}
+.bottom-nav{
+    background-color: rgb(63, 62, 65);
+    height: 320px;
+    padding-left: 15px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 75px);
+    grid-template-rows: repeat(4, 75px);
+}
+.bottom-nav p{
+    color: white;
+    font-size: 25px;
+    align-self: center;
+}
+.bottom-nav img{
+    width: 65px;
+    align-self: center;
+}
+#facebook-img{
+    grid-area: 2/1/2/1;
+}
+#facebook-txt{
+    grid-area: 2/2/2/2;
+}
+#twitter-img{
+    grid-area: 3/1/3/1;
+}
+#twitter-txt{
+    grid-area: 3/2/3/2;
+}
+#insta-img{
+    grid-area: 4/1/4/1;
+}
+#insta-txt{
+    grid-area: 4/2/4/2;
+}
+#bottom-logo{
+    width: 90%;
+    grid-area: 1/1/1/4;
+}
 
 
 /* temp sizes*/
 .hero img{
     width: 300px;
-}
-footer img{
-    width: 200px;
 }
