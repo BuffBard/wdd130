@@ -97,7 +97,8 @@ img {
     margin-bottom: 130px;
 }
 #top_rated-main img{
-    width: 150px;
+    width: 200px;
+    margin: auto;
 }
 #midnight_signal-img{
     grid-area: 1/1/1/1;
@@ -113,7 +114,7 @@ img {
 }
 #card-txt{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 2fr;
     grid-template-rows: auto(1fr 1fr 1fr 5fr);
     padding: 12px;
     border: 2px solid #F3EFF5;
@@ -122,6 +123,7 @@ img {
     column-gap: 40px;
     padding-left: 25px;
     padding-right: 15px;
+    line-height: 1.7em;
 }
 #card-title{
     grid-area: 1/1/1/1;
