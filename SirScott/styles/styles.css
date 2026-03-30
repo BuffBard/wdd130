@@ -95,6 +95,7 @@ img {
     margin-left: 60px;
     margin-right: 60px;
     margin-bottom: 130px;
+    max-width: 1920px;
 }
 #top_rated-main img{
     width: 200px;
